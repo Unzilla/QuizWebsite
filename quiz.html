@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz App</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="quiz">
+            <div class="header">
+                <div class="quiz-user">
+                    <h4>Welcome <span class="users"></span></h4>
+                </div>
+                <div class="quiz-timer">
+                    <span class="time">00:00</span>
+                </div>
+
+            </div>
+            <div class="body">
+                <div id="questions">
+                  
+                </div>
+
+                <button class="next" onclick="next()">Next Question</button>
+            </div>
+
+        </div>
+    </div>
+</body>
+
+<script src="app.js"></script>
+<script src="quiz.js"></script>
+<script src="timer.js"></script>
+</html>
